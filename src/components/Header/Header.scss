@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 24px;
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    margin-bottom: 8px;
+
+    &__chat {
+        display: flex;
+        align-items: center;
+        gap: 5.5px;
+
+        &-name {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+        &-fav {
+            background: none;
+            border: none;
+        }
+    }
+
+    &__search {
+        display: inline-flex;
+        background: rgba(0, 0, 0, 0.0001);
+        border: 0.5px solid rgba(0, 0, 0, 0.24);
+        padding: 10px;
+
+        &-input {
+            width: 300px;
+            border: 0; 
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &-button {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+            order: 1;
+            cursor: pointer;
+        }
+    }
+}

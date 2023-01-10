@@ -1,0 +1,13 @@
+.main {
+	height: 100vh;
+    position: relative;
+    max-width: 870px;
+	width: 100%;
+	margin: 0 auto;
+    overflow: hidden;
+}
+
+.chat {
+    height: calc(100vh - 78px - 106px);
+    overflow: auto;
+}

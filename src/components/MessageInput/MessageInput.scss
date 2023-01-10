@@ -1,0 +1,25 @@
+.inputField {
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    padding: 28px 33px;
+    display: flex;
+    gap: 22.5px;
+    height: 78px;
+    max-width: 870px;
+	width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+
+    &__download {
+        cursor: pointer;
+    }
+
+    &__input {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #8D8D8D;
+        border: none;
+        outline: none;
+    }
+}
